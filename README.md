@@ -9,7 +9,7 @@
 5 - type php bin/console doctrine:migrations:migrate - execute migrations (create tables)  
 6 - type symfony server:start | start server @localhost  
 
-## How to use the API:
+## How to use the API
 
 You can use Postman to try the API! :postbox:     
 If you don't have it you can download it here :point_right: https://www.postman.com/downloads/     
