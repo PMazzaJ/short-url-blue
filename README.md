@@ -11,7 +11,8 @@
 
 ## How to use the API:
 
-You can use Postman to try the API! If you don't have it you can download it here: https://www.postman.com/downloads/ :)
+You can use Postman to try the API!   
+If you don't have it you can download it here: https://www.postman.com/downloads/ :)  
 
 1 - make a POST request to http://127.0.0.1:8000/url-shortener sending an URL as a parameter, example:
 
