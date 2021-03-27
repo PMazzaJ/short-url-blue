@@ -13,7 +13,7 @@ You can use Postman to try the API! If you don't have it you can download it her
 
 1 - make a POST request to http://127.0.0.1:8000/url-shortener sending an URL as a parameter, example:
 
-
+![](images/step1.png)
 
 key:url 
 value: http://localhost:8080/google.com.br
