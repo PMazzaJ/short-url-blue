@@ -1,4 +1,6 @@
-Installation Guide:
+# Url Shortener
+
+## Setup
 
 1 - type git clone git@github.com:PMazzaJ/shortener.git - download the project
 2 - go into project root directory (/shortener)
@@ -7,7 +9,7 @@ Installation Guide:
 5 - type php bin/console doctrine:migrations:migrate - execute migrations (create tables)
 6 - type symfony server:start | start server @localhost
 
-How to use the API:
+## How to use the API:
 
 You can use Postman to try the API! If you don't have it you can download it here: https://www.postman.com/downloads/ :)
 
