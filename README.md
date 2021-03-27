@@ -4,7 +4,7 @@
 
 1 - type git clone git@github.com:PMazzaJ/shortener.git - download the project  
 2 - go into project root directory (/shortener)  
-3 - type composer install - download project dependencies (if you don't have Composer download it here: https://getcomposer.org/download/)  
+3 - type composer install - download project dependencies (download it here: https://getcomposer.org/download/)  
 4 - type php bin/console doctrine:database:create - create MySQL dabatase  
 5 - type php bin/console doctrine:migrations:migrate - execute migrations (create tables)  
 6 - type symfony server:start | start server @localhost  
