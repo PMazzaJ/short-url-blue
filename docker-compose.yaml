@@ -1,0 +1,21 @@
+version: "3.7"
+
+services: 
+    php: 
+        image: php:7.4-fpm-alpine
+        volumes: 
+            - ./:/var/www            
+    nginx: 
+        image: nginx:latest
+        volumes: 
+            - ./:/var/www
+            - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+        ports: 
+            - 8080:80            
+    mysql:
+        image: mysql:latest
+        ports:
+            - 3307:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: studos
