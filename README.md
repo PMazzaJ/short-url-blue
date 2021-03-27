@@ -24,4 +24,4 @@ The api will generate a shortened version of it, having between 5-10 characters 
 
 ![](images/step2.png)
 
-if everything goes well you should be redirected to the original URL =)  
+if everything goes well you should be redirected to the original URL :metal:
