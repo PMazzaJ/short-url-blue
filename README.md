@@ -20,6 +20,6 @@ If you don't have it you can download it here :point_right: https://www.postman.
 
 The api will generate a shortened version of it, having between 5-10 characters and expiring after 1 hour.
 
-2 - make a GET request to http://127.0.0.1:8000/{shortenedUrl}, where {shortenedUrl} is the shortened url that the POST you did before returned to you, example:
+2 - make a GET request to http://127.0.0.1:8000/{shortenedUrl}, where {shortenedUrl} is the shortened url that the POST you did before returned to you.
 
 if everything goes well you should be redirected to the original URL :metal:
