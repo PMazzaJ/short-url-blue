@@ -22,6 +22,4 @@ The api will generate a shortened version of it, having between 5-10 characters 
 
 2 - make a GET request to http://127.0.0.1:8000/{shortenedUrl}, where {shortenedUrl} is the shortened url that the POST you did before returned to you, example:
 
-![](images/step2.png)
-
 if everything goes well you should be redirected to the original URL :metal:
