@@ -51,7 +51,7 @@ class ApiController extends AbstractController
         $shortenedUrlPart = substr(md5($lastUrlPart.mt_rand()),0,rand(5,10));                                     
         $shortenedUrl = implode("/", $explodedUrl) . "/" . $shortenedUrlPart;     
         
-        /* persiste url no banco */
+        /* grava url no banco */
         $url = new Url();
         $url->setFullName($baseUrl);
         $url->setName($lastUrlPart);
