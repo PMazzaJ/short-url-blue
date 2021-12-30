@@ -93,8 +93,4 @@ class ApiController extends AbstractController
         return substr($string, $ini, $len);
     }
     
-    
-
-
-
 }
