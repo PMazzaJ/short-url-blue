@@ -28,8 +28,7 @@ class ApiController extends AbstractController
         
         $existentUrl = $em->getRepository(Url::class)->findOneByFullName([$url]);
         
-        if (!$existentUrl) {
-            //process?
+        if (!$existentUrl) {            
             $title = $this->crawlToTitle($url);
             $newShortUrl = $this->persistNewUrl($url, $title);            
             
