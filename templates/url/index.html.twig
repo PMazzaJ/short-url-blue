@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello UrlController!{% endblock %}
+
+{% block body %}
+<style>
+  .badge-title {
+  text-align: center;
+  font-size: 1.5em;
+}
+</style>
+
+<div class="alert alert-primary badge-title" role="alert">
+  Current Url
+</div>
+
+<ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center">fullName: {{url}}</li>           
+    <li class="list-group-item d-flex justify-content-between align-items-center">shortName: {{shortUrl}}</li>           
+</ul>
+
+<div class="alert alert-primary badge-title" role="alert">
+  Top 100
+</div>
+
+<ul class="list-group">
+    {% for url in topOneHundred %}
+         <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span class="badge badge-success badge-pill">{{loop.index}}</span> Url: {{url.fullName}} ShortUrl: {{url.shortName}} - Title: {{url.title}}
+            <span class="badge badge-primary badge-pill">{{url.accesses}}</span>
+        </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
